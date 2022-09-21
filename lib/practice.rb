@@ -1,4 +1,5 @@
 require "practice/version"
+require "Coffee"
 
 module Practice
   class Error < StandardError; end
