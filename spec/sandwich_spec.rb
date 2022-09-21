@@ -1,13 +1,8 @@
 require 'spec_helper'
 Sandwich = Struct.new(:taste, :toppings)
 
-
-RSpec.context 'hooks version' do
-  def sandwich
-    Sandwich.new('delicious', [])
-  end
-
-  describe 'hooks An ideal sandwich' do
+RSpec.context 'An ideal sandwich' do
+  describe 'hooks version' do
     before { @sandwich = Sandwich.new('delicious', []) }
 
     it 'is delicious' do
@@ -21,15 +16,10 @@ RSpec.context 'hooks version' do
       expect(toppings).not_to be_empty
     end
   end
-end
 
-RSpec.context 'PORO version' do
+  describe 'PORO version' do
+    let(:sandwich) { Sandwich.new('delicious', []) }
 
-  def sandwich
-    @sandwich ||= Sandwich.new('delicious', [])
-  end
-
-  describe 'An ideal sandwich' do
     it 'is delicious' do
       taste = sandwich.taste
       expect(taste).to eq('delicious')
