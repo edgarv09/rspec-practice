@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "rspec/practice"
+require "practice"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

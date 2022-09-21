@@ -1,8 +1,8 @@
-require_relative 'lib/rspec/practice/version'
+require_relative 'lib/practice/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rspec-practice"
-  spec.version       = Rspec::Practice::VERSION
+  spec.version       = Practice::VERSION
   spec.authors       = ["edgar villamarin"]
   spec.email         = ["edgarv.uribe@hotmail.com"]
 
