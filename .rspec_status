@@ -1,6 +1,8 @@
 example_id                         | status | run_time        |
 ---------------------------------- | ------ | --------------- |
-./spec/rspec/practice_spec.rb[1:1] | passed | 0.00272 seconds |
-./spec/rspec/practice_spec.rb[1:2] | passed | 0.00188 seconds |
-./spec/sandwich_spec.rb[1:1]       | passed | 0.00031 seconds |
-./spec/sandwich_spec.rb[1:2]       | passed | 0.00838 seconds |
+./spec/rspec/practice_spec.rb[1:1] | passed | 0.00287 seconds |
+./spec/rspec/practice_spec.rb[1:2] | passed | 0.00222 seconds |
+./spec/sandwich_spec.rb[1:1:1]     | passed | 0.00032 seconds |
+./spec/sandwich_spec.rb[1:1:2]     | passed | 0.00805 seconds |
+./spec/sandwich_spec.rb[2:1:1]     | passed | 0.0003 seconds  |
+./spec/sandwich_spec.rb[2:1:2]     | passed | 0.00034 seconds |
